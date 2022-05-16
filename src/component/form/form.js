@@ -30,9 +30,19 @@ function Form(props) {
       url: url,
       body: null
     };
+
+    let action = {
+      payload :{
+          method: formData.method,
+          url: formData.url,
+          body: formData.body,
+      }
+  }
+  props.addHistory(action);
     if (body) formData.body = body;
     props.handleApiCall(formData);
   }
+
   //-----------------------------------------
     return ( 
         <form className="form" onSubmit={handleSubmit}>
