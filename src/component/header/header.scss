@@ -1,0 +1,40 @@
+header {
+  background: #111;
+  display:flex;
+  flex-direction:column;
+ 
+}
+h1 {
+  color: #eee;
+  display: inline-block;
+  font-weight: 700;
+  margin: .5em auto;
+text-align: center;
+}
+nav {
+  background: rgb(85, 2, 2);
+height: 50.5px;
+  
+
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0rem;
+   
+   
+  }
+
+   li {
+    display: inline-block;
+    padding: .5rem 2rem;
+    position: relative;
+
+  }
+
+
+      a {
+        color: #eee;
+        text-decoration: none;     
+      }
+

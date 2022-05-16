@@ -1,0 +1,56 @@
+.request{
+  display: flex;
+  margin: 10px 20px 0 10px;
+}
+.request .btn{
+  margin: 0 10px;
+  background-color:#f5f5f5;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #c0bdbf;
+  font-size: small;
+  cursor: pointer;
+}
+.request .btn:hover{
+  background: #EEE;
+  border: 1px solid #7e7c7d;
+  font-size: small;
+  cursor: pointer;
+}
+.request .input{
+  width: 600px;
+  height: 100%;
+  font-size: small;
+}
+
+.methods{
+  display: flex;
+  margin: 20px 0 0 0;
+}
+.methods .method{
+  margin: 10px 10px;
+  background-color:#f5f5f5;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #c0bdbf;
+  font-size: small;
+  cursor: pointer;
+  
+
+}
+.methods .method:hover{
+  background: #EEE;
+  border: 1px solid #c0bdbf;
+  font-size: small;
+  cursor: pointer;
+}
+.methods .method:focus {
+  background: rgba(255, 255, 255, 0.041);
+  border-bottom: 2px solid blue;
+}
+.methods textarea{
+  width: 600px;
+  height: 100%;
+  font-size: small;
+  margin: 10px 0 0 0;
+}
