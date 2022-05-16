@@ -42,7 +42,7 @@ import axios from 'axios';
    
     return (
       <>
-        <Form handleClick={handleClick} handleApiCall={handleApiCall} />
+        <Form handleClick={handleClick} handleApiCall={handleApiCall} addHistory={props.addHistory} />
      <Result  data={data} 
         url={requestParams.url} header={header}  method={requestParams.method} loading={isloading} />
       </>
